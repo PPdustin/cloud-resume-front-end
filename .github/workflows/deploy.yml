@@ -26,7 +26,7 @@ jobs:
 
       # Step 3: Sync files to S3
       - name: Sync files to S3
-        run: aws s3 sync ./ s3://${{ secrets.S3_BUCKET_NAME }} --delete
+        run: aws s3 sync ./ s3://${{ secrets.S3_BUCKET_NAME }} --delete --exclude ".git/*" --exclude ".github/*"
 
       # Step 4: Invalidate CloudFront cache
       - name: Invalidate CloudFront cache
