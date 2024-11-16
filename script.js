@@ -3,15 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     updateVisitorCount();
 });
 
-const apiUrl = "https://a8chskyqn1.execute-api.ap-southeast-1.amazonaws.com/Prod/hello"
+const apiUrl = "https://a8chskyqn1.execute-api.ap-southeast-1.amazonaws.com/Prod/retrieve"
 
 async function updateVisitorCount() {
     try {
-      // Make a POST request to the API
       const response = await fetch(apiUrl, {
-        method: 'GET', // or 'GET' if your API expects a GET request
+        method: 'GET',
         headers: {
-          'Content-Type': 'application/json', // Set the correct content type if needed
+          'Content-Type': 'application/json',
         },
       });
   
@@ -19,7 +18,6 @@ async function updateVisitorCount() {
         const data = await response.json();
         
         console.log('Visitor count updated:', data.visitor_count);
-        // Optionally, display the visitor count on the webpage
         document.getElementById('visitCount').textContent = `${data.visitor_count}`;
       } else {
         console.error('Error:', response.status, response.statusText);
