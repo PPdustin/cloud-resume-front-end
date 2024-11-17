@@ -1,0 +1,12 @@
+{
+    "name": "Dustin Wata",
+    "description": "Graduating BSCS student with experience in back end development",
+    "projects": [
+        {
+            "title": "How this website is made",
+            "description": "Cloud Resume Challenge - A hands-on project showcasing cloud technologies to deploy a fully serverless website, complete with an automated CI/CD pipeline for seamless updates.",
+            "image": "img/aws_logo.png",
+            "link": "https://dustincrc.hashnode.dev/first-project-cloud-resume-challenge"
+        }
+    ]
+}
