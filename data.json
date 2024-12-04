@@ -1,6 +1,6 @@
 {
     "name": "Dustin Wata",
-    "description": "Graduating BSCS student with experience in back end development",
+    "description": "Graduating BSCS student with experience in Backend and Cloud Development",
     "projects": [
         {
             "title": "How this website is made",
@@ -13,6 +13,21 @@
             "description": "This project automates image filtering and labeling using AWS services (S3, Lambda, Step Functions, Rekognition, DynamoDB), with NSFW detection triggering notifications and deletion, and safe content tagged and stored.",
             "image": "img/image_collection.png",
             "link": "https://dustincrc.hashnode.dev/automated-content-labeling-and-filtering"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Local Government Unit of General Santos City",
+            "role": "Software Developer Intern",
+            "duration": "Jun 2024 - Jul 2024 (240 hours)",
+            "description": "Designed and implemented backend web solution using PHP and SQL for automating cheque printing work of City Treasurer's Office and providing comprehensive summary about the printed cheques at the end of each month and year, improving the efficiency of cheque printing by reducing task completion time from a full workday to just 2 hours."
+        }
+    ],
+    "certifications": [
+        {
+        "title": "AWS Certified Solutions Architect - Associate",
+        "image": "img/saa_badge.png",
+        "link": "https://www.credly.com/badges/4f98520a-245f-49ff-adef-7f92f34dbe57/public_url"
         }
     ]
 }
