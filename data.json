@@ -7,6 +7,12 @@
             "description": "Cloud Resume Challenge - A hands-on project showcasing cloud technologies to deploy a fully serverless website, complete with an automated CI/CD pipeline for seamless updates.",
             "image": "img/aws_logo.png",
             "link": "https://dustincrc.hashnode.dev/first-project-cloud-resume-challenge"
+        },
+        {
+            "title": "Automated Content Labeling and Filtering",
+            "description": "This project automates image filtering and labeling using AWS services (S3, Lambda, Step Functions, Rekognition, DynamoDB), with NSFW detection triggering notifications and deletion, and safe content tagged and stored.",
+            "image": "img/image_collection.png",
+            "link": "https://dustincrc.hashnode.dev/automated-content-labeling-and-filtering"
         }
     ]
 }
