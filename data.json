@@ -1,7 +1,13 @@
 {
     "name": "Dustin Wata",
-    "description": "Graduating BSCS student with experience in Backend and Cloud Development",
+    "description": "BS Computer Science graduate with experience in Backend and Cloud Development",
     "projects": [
+        {
+            "title": "LeafScan - Thesis Project",
+            "description": "LeafScan is a mobile app powered by deep learning to classify corn leaf diseases using image classification, aiding farmers with accurate, offline disease diagnosis.",
+            "image": "img/leafscan.png",
+            "link": "https://github.com/PPdustin/leafscan"
+        },
         {
             "title": "Pageant Scoring System",
             "description": "Automated pageant scoring system for Hiyas ng NDDU using PHP and JSON, streamlining judge evaluations and real-time results calculation for seamless competition management.",
@@ -36,6 +42,6 @@
         "image": "img/saa_badge.png",
         "link": "https://www.credly.com/badges/4f98520a-245f-49ff-adef-7f92f34dbe57/public_url"
         }
-        
+
     ]
 }
