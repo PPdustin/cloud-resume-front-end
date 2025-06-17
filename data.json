@@ -3,17 +3,24 @@
     "description": "Graduating BSCS student with experience in Backend and Cloud Development",
     "projects": [
         {
-            "title": "How this website is made",
-            "description": "Cloud Resume Challenge - A hands-on project showcasing cloud technologies to deploy a fully serverless website, complete with an automated CI/CD pipeline for seamless updates.",
-            "image": "img/aws_logo.png",
-            "link": "https://dustincrc.hashnode.dev/first-project-cloud-resume-challenge"
+            "title": "Pageant Scoring System",
+            "description": "Automated pageant scoring system for Hiyas ng NDDU using PHP and JSON, streamlining judge evaluations and real-time results calculation for seamless competition management.",
+            "image": "img/hiyas.png",
+            "link": "https://github.com/PPdustin/hiyas-system"
         },
         {
             "title": "Automated Content Labeling and Filtering",
             "description": "This project automates image filtering and labeling using AWS services (S3, Lambda, Step Functions, Rekognition, DynamoDB), with NSFW detection triggering notifications and deletion, and safe content tagged and stored.",
             "image": "img/image_collection.png",
             "link": "https://dustincrc.hashnode.dev/automated-content-labeling-and-filtering"
+        },
+        {
+            "title": "How this website is made",
+            "description": "Cloud Resume Challenge - A hands-on project showcasing cloud technologies to deploy a fully serverless website, complete with an automated CI/CD pipeline for seamless updates.",
+            "image": "img/aws_logo.png",
+            "link": "https://dustincrc.hashnode.dev/first-project-cloud-resume-challenge"
         }
+        
     ],
     "experience": [
         {
